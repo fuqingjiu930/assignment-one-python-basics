@@ -91,3 +91,25 @@ as `turtle_drawing.eps`.
   the program still runs, and Task C prints a short message instead of crashing.
 * Every function is commented, and the program never exits with a traceback
   even if the input ends early.
+
+## Rebuilding the report
+
+`Assignment1_WangZhihan.pdf` is a normal text PDF: the words are selectable,
+copyable and searchable. It is produced by `make_submission_pdf.py`, which lays
+the report out with PyMuPDF's HTML engine and refuses to run unless the three
+required header lines are present in the `.py` file.
+
+```bash
+python3 make_submission_pdf.py     # needs: pip install pymupdf
+```
+
+Before uploading to Moodle, put the real repository URL in `GITHUB_URL` at the
+top of that script and run it once more.
+
+`verify_submission.py` re-checks the finished work (file name, header, and the
+behaviour of all three tasks):
+
+```bash
+python3 verify_submission.py
+```
+

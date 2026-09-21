@@ -17,8 +17,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "assignment 1_WangZhihan.py")
 OUT_PDF = os.path.join(HERE, "Assignment1_WangZhihan.pdf")
 
-# Put your real repository URL here, then run this script again.
-GITHUB_URL = "https://github.com/<YOUR-GITHUB-USERNAME>/assignment-one-python-basics"
+# The real repository URL, so the report matches where the code actually lives.
+GITHUB_URL = "https://github.com/fuqingjiu930/assignment-one-python-basics"
 
 # A4, with room left at the bottom for the footer line.
 MEDIABOX = pymupdf.paper_rect("a4")

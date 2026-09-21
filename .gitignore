@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 turtle_drawing.eps
+_askpass.cmd
+_rebuild_pdf.py

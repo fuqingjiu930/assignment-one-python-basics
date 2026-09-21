@@ -6,9 +6,9 @@ import shutil
 
 from PIL import Image, ImageDraw, ImageFont
 
-SRC = r"D:\code_for_workshop\assignment1_WangZhihan.py"
-FINAL = r"D:\code_for_workshop\assignment 1_WangZhihan.py"
-OUT_PDF = r"D:\code_for_workshop\Assignment1_WangZhihan.pdf"
+SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assignment 1_WangZhihan.py")
+FINAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assignment 1_WangZhihan.py")
+OUT_PDF = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Assignment1_WangZhihan.pdf")
 
 GITHUB_LINE = (
     "GitHub link : https://github.com/<YOUR-GITHUB-USERNAME>/"

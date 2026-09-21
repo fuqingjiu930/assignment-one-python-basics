@@ -12,7 +12,7 @@ import sys
 import tempfile
 from contextlib import redirect_stdout
 
-ROOT = r"D:\code_for_workshop"
+ROOT = os.path.dirname(os.path.abspath(__file__))
 FINAL_PY = os.path.join(ROOT, "assignment 1_WangZhihan.py")
 PDF = os.path.join(ROOT, "Assignment1_WangZhihan.pdf")
 

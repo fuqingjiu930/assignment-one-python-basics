@@ -7,7 +7,7 @@
 #
 # How to run on the Jetson Nano:
 #     cd ~/Desktop
-#     python3 assignment1_WangZhihan.py
+#     python3 "assignment 1_WangZhihan.py"
 # Then choose 1 / 2 / 3 in the menu, or 4 to run all three tasks one by one.
 
 import time

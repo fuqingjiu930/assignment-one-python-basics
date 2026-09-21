@@ -12,7 +12,10 @@ no installation needed.
 
 | File | Description |
 | --- | --- |
-| `assignment1_WangZhihan.py` | The whole assignment: Task A, Task B and Task C |
+| `assignment 1_WangZhihan.py` | The whole assignment: Task A, Task B and Task C |
+| `Assignment1_WangZhihan.pdf` | The report uploaded to Moodle (GitHub link + description) |
+| `verify_submission.py` | Automated check of all three tasks (44 checks) |
+| `make_submission_pdf.py` | Regenerates the report PDF |
 
 ## How to run
 
@@ -20,7 +23,7 @@ On the Jetson Nano (Jetson Nano, Python 3, desktop session needed for Task C):
 
 ```bash
 cd ~/Desktop
-python3 assignment1_WangZhihan.py
+python3 assignment 1_WangZhihan.py
 ```
 
 A menu appears:
